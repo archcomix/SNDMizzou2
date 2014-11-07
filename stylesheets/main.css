@@ -1,0 +1,63 @@
+/*
+Stylesheet: SND Bootcamp Test
+Author: Dan Archer
+Version: 0.0.1
+
+Colors:
+	Base Black: #000000
+
+Index
+	--Global
+	--Navbar
+
+	*/
+
+
+	/*============
+	Navbar
+	==============*/
+
+	.navbar-container {
+		
+		background-color: #f5f5f5;
+		border-bottom: 1px solid #e5e5e5;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		min-width: 100%;
+		}
+
+.left-header-nav{
+
+	float: left;
+	width: 80%;
+
+}
+
+
+.left-header-nav li{
+display: inline;
+margin:	20px;
+
+}
+
+
+
+.right-header-nav{
+	float: right;
+	width: 20%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
